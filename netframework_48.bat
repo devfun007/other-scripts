@@ -15,7 +15,7 @@ reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319\SKUs\.
 if errorlevel 1 (
 echo .NET Framework 4.8 is NOT installed
 
-itops\scripts\netframework_48\setup.exe /q
+\\server\fileshare\netframework_48\setup.exe /q
  
 ) else goto End
 
